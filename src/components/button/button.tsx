@@ -42,8 +42,8 @@ const StyledButton = styled.button<{ variant: ButtonVariant }>`
         `
       case 'secondary':
         return `
-          background-color: #f00;
-          color: #fff;
+          background-color: #F0F8FF;
+          color: #000;
         `
       case 'tertiary':
         return `
