@@ -37,8 +37,8 @@ const StyledButton = styled.button<{ variant: ButtonVariant }>`
     switch (variant) {
       case 'primary':
         return `
-          background-color: #00f;
-          color: #fff;
+          background-color: #FF33CC;
+          color: #FF33CC;
         `
       case 'secondary':
         return `
