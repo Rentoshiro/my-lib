@@ -1,0 +1,137 @@
+.primary {
+  width: 182px;
+  height: 36px;
+  margin: 24px 0 0 24px;
+  border-radius: 2px;
+  padding: 6px 24px;
+  background-color: #397df6;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.primary:hover {
+  background-color: #73a5ff;
+}
+
+.primary:focus {
+  background-color: #397df6;
+}
+
+.primary:active {
+  background-color: #2f68cc;
+  outline: none;
+}
+
+.primary:disabled {
+  background-color: #234e99;
+  cursor: not-allowed;
+}
+
+.secondary {
+  width: 182px;
+  height: 36px;
+  margin: 108px 0 0 24px;
+  border-radius: 2px;
+  padding: 6px 24px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.secondary:hover {
+  background-color: #4c4c4c;
+}
+
+.secondary:focus {
+  background-color: #333333;
+}
+
+.secondary:active {
+  background-color: #212121;
+  outline: none;
+}
+
+.secondary:disabled {
+  background-color: #171717;
+  cursor: not-allowed;
+}
+
+.outlined {
+  background-color: transparent;
+  border: 2px solid #397df6;
+  width: 182px;
+  height: 36px;
+  border-radius: 2px;
+  padding: 6px 24px;
+  color: #397df6;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.outlined:hover {
+  background-color: transparent;
+  color: #73a5ff;
+}
+
+.outlined:focus {
+  background-color: transparent;
+  color: #2f68cc;
+}
+
+.outlined:active {
+  background-color: transparent;
+  color: #2f68cc;
+}
+
+.outlined:disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.text {
+  background-color: transparent;
+  color: #397df6;
+  border: none;
+  width: 100px;
+  height: 36px;
+  padding: 6px 24px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.text:hover {
+  background-color: transparent;
+  color: #73a5ff;
+}
+
+.text:focus {
+  background-color: transparent;
+  border-radius: 2px;
+  border: 2px solid #397df6;
+  color: #2f68cc;
+}
+
+.text:active {
+  background-color: transparent;
+  color: #2f68cc;
+}
+
+.text:disabled {
+  background-color: transparent;
+  color: #234e99;
+  cursor: not-allowed;
+}
+
+.fullWidth {
+  width: 100%;
+}
